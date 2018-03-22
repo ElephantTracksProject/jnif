@@ -2,6 +2,14 @@
 
 
 # Java Native Instrumentation Framework
+## Elephant Tracks Project Fork
+This is a **fork** of the JNIF repository by the Elephant Tracks Project at
+the Department of Computer Science, Tufts University. All modifications are 
+used to support Elephant Tracks II and might not be useful for general users. 
+The official repository for JNIF, maintained by the SAPE Research Group, 
+Faculty of Informatics, University of Lugano, is located [here](https://gitlab.com/acuarica/jnif/tree/master).
+If you need to use JNIF for your own project, please go there. If you are an 
+Elephant Tracks II user, please clone this repository.
 
 ## Introduction
 

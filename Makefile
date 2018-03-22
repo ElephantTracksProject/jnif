@@ -23,7 +23,7 @@ else
   $(error Unrecognized environment. Only supported Darwin and Linux)
 endif
 
-CXXFLAGS+=-MMD -fPIC -W -g -Wall -Wextra -O0
+CXXFLAGS+=-MMD -fPIC -O2 # -W -g -Wall -Wextra -O0
 
 
 # CPP_SRCS=$(shell find src-* -name "*.cpp")

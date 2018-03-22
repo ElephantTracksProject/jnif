@@ -253,6 +253,13 @@ namespace jnif {
 
                     Attr *a = AttrParser<TAttrParsers...>().parse(
                             nameIndex, len, data, attrName, cp, args...);
+
+                    if (a->kind == ATTR_LVT
+                        || a->kind == ATTR_LVTT
+                        || a->kind == ATTR_LNT) {
+                        continue;
+                    }
+                    
                     as->add(a);
                 }
             }
